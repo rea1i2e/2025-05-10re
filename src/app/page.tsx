@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -92,9 +92,9 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-        <a href="/about" className={styles.link} style={{ textDecoration: 'underline', color: 'blue' }}>
+        <Link href="/about" className={styles.link} style={{ textDecoration: 'underline', color: 'blue' }}>
           Aboutページへ
-        </a>
+        </Link>
       </footer>
     </div>
   );

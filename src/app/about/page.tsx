@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: 'About | 2025-05-10re',
   description: 'このページはAboutページです。',
@@ -8,9 +10,9 @@ export default function About() {
     <div>
       <h1>About</h1>
       <p>このページはAboutページです。Next.jsで作成しました。</p>
-      <a href="/" style={{ textDecoration: 'underline', color: 'blue' }}>
+      <Link href="/" style={{ textDecoration: 'underline', color: 'blue' }}>
         トップページへ戻る
-      </a>
+      </Link>
     </div>
   );
 }
