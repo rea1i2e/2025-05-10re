@@ -92,6 +92,9 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+        <a href="/about" className={styles.link} style={{ textDecoration: 'underline', color: 'blue' }}>
+          Aboutページへ
+        </a>
       </footer>
     </div>
   );
